@@ -3,21 +3,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>自己紹介</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>あいみょん Official Fan Page - 歌声に恋をする</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="description" content="シンガーソングライターあいみょんの公式ファンページ。最新情報、ディスコグラフィー、ライブ情報など、彼女の魅力が詰まったコンテンツをお届けします。">
+    <meta name="keywords" content="あいみょん, aimyon, 歌手, シンガーソングライター, J-POP, 邦楽">
+    <meta property="og:title" content="あいみょん Official Fan Page">
+    <meta property="og:description" content="シンガーソングライターあいみょんの公式ファンページ。最新情報、ディスコグラフィー、ライブ情報など、彼女の魅力が詰まったコンテンツをお届けします。">
+    <meta property="og:image" content="https://your-github-pages-url.com/images/ogp_image.jpg">
+    <meta property="og:url" content="https://your-github-pages-url.com">
+    <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-    <header>
-        <h1>こんにちは！私は泰盛です</h1>
-        <p>ウェブ開発とデザインに興味があります。</p>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="site-title">
+                <a href="#">AIMYON FAN PAGE</a>
+            </h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#music">Music</a></li>
+                    <li><a href="#live">Live</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
     </header>
-    <section class="about">
-        <h2>自己紹介</h2>
-        <p>千葉県船橋市に住んでおり、テクノロジーとクリエイティブな活動が大好きです。</p>
-    </section>
-    <section class="contact">
-        <h2>連絡先</h2>
-        <p>Email: example@example.com</p>
-    </section>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2>あなたの心に響く、唯一無二の歌声</h2>
+                <p>シンガーソングライター、あいみょんの世界へようこそ。</p>
+                <a href="#music" class="btn btn-primary">楽曲を聴く</a>
+            </div>
+            <div class="scroll-down-indicator">
+                <span>Scroll Down</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title">ABOUT AIMYON</h2>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="images/aimyon_profile.jpg" alt="あいみょんのプロフィール写真">
+                    </div>
+                    <div class="about-text">
+                        <h3>あいみょんとは</h3>
+                        <p>1995年生まれ、兵庫県西宮市出身のシンガーソングライター。日常に潜む感情や風景を独自の感性で切り取り、ストレートな歌詞とメロディで表現する。その個性的な世界観と圧倒的なライブパフォーマンスは、多くの人々を魅了し続けています。</p>
+                        <p>2016年のメジャーデビュー以降、数々のヒット曲を生み出し、若者を中心に絶大な人気を誇っています。彼女の楽曲は、恋愛、友情、社会問題など、多岐にわたるテーマを扱い、聴く人の心に深く響きます。</p>
+                        <a href="https://www.aimyon.net/profile/" target="_blank" class="btn btn-secondary">公式プロフィールを見る</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="music" class="section music-section">
+            <div class="container">
+                <h2 class="section-title">DISCOGRAPHY</h2>
+                <div class="music-grid">
+                    <div class="music-item">
+                        <img src="images/single_marigold.jpg" alt="マリーゴールド">
+                        <h3>マリーゴールド</h3>
+                        <p class="release-date">2018.08.08 Release</p>
+                        <p class="description">あいみょんを代表する国民的ヒット曲。夏の切ない情景と恋心を歌い上げ、幅広い世代に愛されています。</p>
+                        <a href="https://www.youtube.com/watch?v=dtR7C5S_B_I" target="_blank" class="btn btn-link"><i class="fab fa-youtube"></i> YouTube</a>
+                    </div>
+                    <div class="music-item">
+                        <img src="images/single_harunohi.jpg" alt="ハルノヒ">
+                        <h3>ハルノヒ</h3>
+                        <p class="release-date">2019.02.13 Release</p>
+                        <p class="description">映画「クレヨンしんちゃん 新婚旅行ハリケーン ～失われたひろし～」主題歌。温かい家族の絆を歌った感動的な一曲。</p>
+                        <a href="https://www.youtube.com/watch?v=KzGvV3fRjJ8" target="_blank" class="btn btn-link"><i class="fab fa-youtube"></i> YouTube</a>
+                    </div>
+                    <div class="music-item">
+                        <img src="images/album_shunkashuto.jpg" alt="瞬間的シックスセンス">
+                        <h3>瞬間的シックスセンス</h3>
+                        <p class="release-date">2019.02.13 Release (Album)</p>
+                        <p class="description">大ヒットシングル「マリーゴールド」を含む、あいみょんの才能が凝縮されたセカンドアルバム。</p>
+                        <a href="https://aimyon.lnk.to/shunkanteki_six_sense" target="_blank" class="btn btn-link"><i class="fas fa-music"></i> ストリーミング</a>
+                    </div>
+                    <div class="music-item">
+                        <img src="images/single_kimiha_rock.jpg" alt="君はロックを聴かない">
+                        <h3>君はロックを聴かない</h3>
+                        <p class="release-date">2017.08.23 Release</p>
+                        <p class="description">初期の代表曲。切ない歌詞とロックサウンドが融合した、あいみょんの真骨頂とも言える楽曲です。</p>
+                        <a href="https://www.youtube.com/watch?v=YM0C4s09yA4" target="_blank" class="btn btn-link"><i class="fab fa-youtube"></i> YouTube</a>
+                    </div>
+                </div>
+                <a href="https://www.aimyon.net/discography/" target="_blank" class="btn btn-primary all-music-btn">全ての楽曲を見る</a>
+            </div>
+        </section>
+
+        <section id="live" class="section live-section">
+            <div class="container">
+                <h2 class="section-title">LIVE INFO</h2>
+                <div class="live-info-wrapper">
+                    <div class="live-card current-live">
+                        <h3>AIMYON TOUR 2025 "未知との遭遇"</h3>
+                        <p class="live-date"><i class="far fa-calendar-alt"></i> 2025年10月5日(土) - 2025年12月20日(金)</p>
+                        <p class="live-venue"><i class="fas fa-map-marker-alt"></i> 全国アリーナツアー開催決定！</p>
+                        <p class="live-detail">詳細な会場やチケット情報については、特設サイトをご確認ください。</p>
+                        <a href="https://www.aimyon.net/live/" target="_blank" class="btn btn-primary">特設サイトへ</a>
+                    </div>
+                    <div class="live-history">
+                        <h3>過去のライブ</h3>
+                        <ul>
+                            <li><i class="fas fa-history"></i> AIMYON TOUR 2024 "愛を伝えたいだとか" (2024年)</li>
+                            <li><i class="fas fa-history"></i> AIMYON TOUR 2023 "空の青さを知る人よ" (2023年)</li>
+                            <li><i class="fas fa-history"></i> AIMYON TOUR 2022 "ま・あ・る" (2022年)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="section news-section">
+            <div class="container">
+                <h2 class="section-title">LATEST NEWS</h2>
+                <div class="news-list">
+                    <article class="news-item">
+                        <span class="news-date">2025.06.20</span>
+                        <h3>新曲「未完成のメロディ」デジタルリリース決定！</h3>
+                        <p>次作シングルとなる「未完成のメロディ」が7月10日にデジタルリリースされることが決定しました！</p>
+                        <a href="#" class="read-more">詳しく見る <i class="fas fa-angle-right"></i></a>
+                    </article>
+                    <article class="news-item">
+                        <span class="news-date">2025.06.15</span>
+                        <h3>新ツアー「未知との遭遇」チケット先行抽選受付開始！</h3>
+                        <p>本日より、AIMYON TOUR 2025 "未知との遭遇" のオフィシャルファンクラブ先行抽選受付が開始されました。</p>
+                        <a href="#" class="read-more">詳しく見る <i class="fas fa-angle-right"></i></a>
+                    </article>
+                    <article class="news-item">
+                        <span class="news-date">2025.06.01</span>
+                        <h3>オフィシャルファンクラブ「AIM」限定コンテンツ更新！</h3>
+                        <p>あいみょんの日常を垣間見れるブログや、会員限定動画が追加されました。</p>
+                        <a href="#" class="read-more">詳しく見る <i class="fas fa-angle-right"></i></a>
+                    </article>
+                </div>
+                <a href="https://www.aimyon.net/news/" target="_blank" class="btn btn-primary all-news-btn">全てのニュースを見る</a>
+            </div>
+        </section>
+
+        <section class="quote-section">
+            <div class="container">
+                <blockquote>
+                    <p>「歌は、聴く人の心に寄り添うもの。私の歌が、誰かの日常に少しでも彩りを加えられたら嬉しい。」</p>
+                    <footer>— あいみょん</footer>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">AIMYON FAN PAGE</div>
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="social-links">
+                    <a href="https://twitter.com/AimyongStaff" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/aimyon36/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCyTjL6f-fP_F0BAE_s-B1Fg" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2025 AIMYON Fan Page. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // ハンバーガーメニューの開閉
+        document.addEventListener('DOMContentLoaded', () => {
+            const navToggle = document.querySelector('.nav-toggle');
+            const mainNav = document.querySelector('.main-nav');
+
+            if (navToggle && mainNav) {
+                navToggle.addEventListener('click', () => {
+                    mainNav.classList.toggle('active');
+                    navToggle.classList.toggle('active');
+                });
+
+                // ナビゲーションリンククリックでメニューを閉じる
+                mainNav.querySelectorAll('a').forEach(link => {
+                    link.addEventListener('click', () => {
+                        mainNav.classList.remove('active');
+                        navToggle.classList.remove('active');
+                    });
+                });
+            }
+        });
+    </script>
 </body>
 </html>
